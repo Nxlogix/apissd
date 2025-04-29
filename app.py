@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/api/*": {"origins": "*"}}, supports_credentials=True)
 
 # JWT
-app.config['JWT_SECRET_KEY'] = 'qwertyuiop'
+app.config['JWT_SECRET_KEY'] = 'nxlogixssd'
 JWTManager(app)
 
 # SQLAlchemy
